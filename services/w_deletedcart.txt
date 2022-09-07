@@ -1,0 +1,10 @@
+<?php
+ 
+$Cart_id=$_REQUEST["Cart_id"];
+$con=new PDO("mysql:dbname=tea spot","root","");
+$con->query("delete into cart(User_id,Item_id,Qty)
+values('$uid','$itemid','$qty')");
+
+$arr=Array("msg"=>"Deleted Successfully");
+echo json_encode($arr);
+?>

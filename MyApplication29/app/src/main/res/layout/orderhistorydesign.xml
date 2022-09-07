@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:background="#FF9BD1C2">
+    <androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:contentPadding="6dp"
+        android:layout_margin="3dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Id: "
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="dt:"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:layout_height="wrap_content"
+                android:text="Status:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:layout_height="wrap_content"
+                android:text="Status:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:layout_height="wrap_content"
+                android:text="Status:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:layout_height="wrap_content"
+                android:text="Statu:"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:layout_height="wrap_content"
+                android:text="Statu:"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:layout_gravity="right"
+                android:id="@+id/btn1"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                android:text="Details"
+                android:textColor="#ffff00">
+            </Button>
+
+
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

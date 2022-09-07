@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_smart_cart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_contract"
+            android:icon="@drawable/ic_document"
+            android:title="Contract" />
+        <item
+            android:id="@+id/nav_viewcontract"
+            android:icon="@drawable/contract"
+            android:title="View Contract" />
+
+        <item
+            android:id="@+id/nav_vieworder"
+            android:icon="@drawable/order"
+            android:title="My Order" />
+
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_letter"
+            android:title="FeedBack" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_user"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_cp"
+                android:icon="@drawable/password"
+                android:title="Change Password" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+</menu>

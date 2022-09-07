@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".forgotpassword"></activity>
+        <activity
+            android:name=".ProductDescription"
+            android:parentActivityName=".ProductList" />
+        <activity
+            android:name=".ProductList"
+            android:parentActivityName=".ViewCategory" />
+        <activity
+            android:name=".ViewCategory"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TransactionDetailsActivity"
+            android:parentActivityName=".TransactionActivity" />
+        <activity android:name=".TransactionActivity" />
+        <activity android:name=".buyitm" />
+        <activity
+            android:name=".vieworder1"
+            android:parentActivityName=".Welcome" />
+        <activity android:name=".vieworder" />
+        <activity
+            android:name=".viewcontract"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".contract"
+            android:label="Contract"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".OrderHistory"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".placeorder"
+            android:parentActivityName=".Cart" />
+        <activity
+            android:name=".Cart"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".itemdesc"
+            android:parentActivityName=".itemdesc" />
+        <activity
+            android:name=".get_item"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".feedback"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userprofile"
+            android:label="Profile"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".chng_password"
+            android:label="Change Password"
+            android:parentActivityName=".Welcome" />
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".homepage" />
+        <activity
+            android:name=".registerpage"
+            android:label="Registration" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

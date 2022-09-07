@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:tag="cards main container">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="12dp"
+       app:contentPadding="6dp"
+       android:layout_margin="3dp"
+       android:focusable="true"
+       android:scrollbars="vertical">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp">
+           <ImageView
+               android:id="@+id/img"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentLeft="true"
+               />
+           <TextView
+               android:id="@+id/tit1"
+               android:layout_width="243dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="133dp"
+               android:layout_marginStart="133dp"
+               android:layout_marginTop="21dp"
+               android:text="Title"
+               android:textColor="#000000"
+               android:textSize="20dp"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/desc1"
+               android:layout_width="243dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="133dp"
+               android:layout_marginStart="133dp"
+               android:layout_marginTop="62dp"
+               android:text="abcggfu"
+               android:textColor="#690101"
+               />
+
+
+           <TextView
+               android:id="@+id/qty"
+               android:layout_width="243dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="133dp"
+               android:layout_marginStart="133dp"
+               android:layout_marginTop="92dp"
+               android:text="abcggfu"
+               android:textColor="#690101"
+               />
+
+           <TextView
+               android:id="@+id/tvt"
+               android:layout_width="243dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="133dp"
+               android:layout_marginStart="133dp"
+               android:layout_marginTop="122dp"
+               android:text="total"
+               android:textColor="#690101"
+               />
+
+
+           <Button
+               android:id="@+id/btndelete"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="142dp"
+               android:text="Delete"
+               android:background="@color/colorPrimary"
+
+               android:layout_marginRight="20dp"
+               android:textColor="#ffffff"
+               />
+
+       </RelativeLayout>
+
+
+
+   </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

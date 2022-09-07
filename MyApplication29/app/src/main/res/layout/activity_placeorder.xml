@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg"
+    tools:context=".placeorder">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/t1"
+                    android:layout_width="300dp"
+                    android:layout_height="64dp"
+                    android:ellipsize="end"
+                    android:hint="Remark"
+                    android:maxLines="1"
+                    android:textAlignment="center"></com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/t2"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textAlignment="center"
+                    android:layout_width="300dp"
+                    android:hint="Delivery Add"
+                    android:layout_height="wrap_content">
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:layout_gravity="center"
+                android:id="@+id/sp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+            <Button
+
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@color/colorPrimary"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btn1"
+                android:text="Place order"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+               />
+
+
+</LinearLayout>
+    </ScrollView>
+        </LinearLayout>
